@@ -15,7 +15,7 @@ pipeline {
 
         stage('Fetch Code') {
             steps {
-                git branch: 'paac', url: 'https://github.com/VijayPersistent/vprofile-project.git'
+                git branch: 'master', url: 'https://github.com/VijayPersistent/cicd-kube-docker.git'
             }
         }
         stage('BUILD'){
